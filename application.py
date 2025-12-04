@@ -23,6 +23,8 @@ try:
 except FileNotFoundError:
     st.error("Erreur: le fichier 'Model.pkl' n'a pas été trouvé. Assurez-vous qu'il a été sauvegardé correctement")
     st.stop()
+    
+st.title(" Hafssa RHERS : Deployement de l'app de prédiction ♡♡")
 
 st.title(" 🩺 prédiction du risque de maladie cardiaque (CHD)")
 st.write(" veuillez entrer les caractéristiques cliniques pour obtenir la prédiction du risque")
